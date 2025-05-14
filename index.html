@@ -28,7 +28,8 @@ border: 0px;
 <button id="but0" onclick="hut0()">ON</button><button id="bat0" onclick="hat0()">OFF</button> - Корневой чат<br>
 <button id="but0" onclick="hut1()">ON</button><button id="bat0" onclick="hat1()">OFF</button> - Дуэли<br>
 <button id="but0" onclick="hut2()">ON</button><button id="bat0" onclick="hat2()">OFF</button> - Чат<br>
-<button id="but0" onclick="hut3()">ON</button><button id="bat0" onclick="hat3()">OFF</button> - Команды<br><br>
+<button id="but0" onclick="hut3()">ON</button><button id="bat0" onclick="hat3()">OFF</button> - Команды<br>
+<button id="but0" onclick="hut4()">ON</button><button id="bat0" onclick="hat4()">OFF</button> - Команды<br><br>
 <div id="hut">Корневой чат:<br>
 <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-discussion="klanmegapig/1" data-comments-limit="3" data-colorful="1" data-dark="0" data-height="0"></script></div>
 <div id="hut">Дуэли:<br>
@@ -48,9 +49,13 @@ border: 0px;
 7. <a href="tg://openmessage?user_id=6290312686">Gleb</a> - <a href="http://t.me/CupLegendBot?start=Account=623">¥Mr.logika¥❤️</a><br>
 8. <a href="tg://openmessage?user_id=1763784339">🐼 Dimashloyger02</a> - <a href="http://t.me/CupLegendBot?start=Account=75">Дмитрий 🐼 | ⚔️</a><br>
 9. <a href="tg://openmessage?user_id=1817889040">@Välênŧi</a> - <a href="http://t.me/CupLegendBot?start=Account=2118">VaLeNtAiN | BY</a><br>
-10. <a href="tg://openmessage?user_id=5857559438">Югославие #СФРЮ</a> - <a href="http://t.me/CupLegendBot?start=Account=2678">Югославик</a>
+10. <a href="tg://openmessage?user_id=5857559438">Югославие #СФРЮ</a> - <a href="http://t.me/CupLegendBot?start=Account=2678">Югославик</a><br>
 
-<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="WRGJjhiO" data-limit="5"></script>
+<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="WRGJjhiO" data-limit="5"></script><br>
+	
+<div id="hut">Мои NFT:<br>
+<a href="t.me/nft/DeskCalendar-88271">Desk Calendar #88271</a><br>
+<a href="t.me/nft/EasterEgg-130768">Easter Egg #130768</a><br></div><br>
 
 </body>
 <script>
@@ -65,6 +70,8 @@ hut[2].style.display = 'none'
 bat0[2].style.backgroundColor = 'red'
 hut[3].style.display = 'none'
 bat0[3].style.backgroundColor = 'red'
+hut[4].style.display = 'none'
+bat0[4].style.backgroundColor = 'red'
 function hut0(){
 hut[0].style.display = 'inline'
 alert('Открыт корневой чат')
@@ -89,6 +96,12 @@ alert('Открыты команды')
 but0[3].style.backgroundColor = '#00ff00'
 bat0[3].style.backgroundColor = '#efefef'
 }
+function hut4(){
+hut[4].style.display = 'inline'
+alert('Открыты NFT')
+but0[4].style.backgroundColor = '#00ff00'
+bat0[4].style.backgroundColor = '#efefef'
+}
 function hat0(){
 hut[0].style.display = 'none'
 alert('Закрыт корневой чат')
@@ -112,6 +125,12 @@ hut[3].style.display = 'none'
 alert('Закрыты команды')
 but0[3].style.backgroundColor = '#efefef'
 bat0[3].style.backgroundColor = 'red'
+}
+function hat4(){
+hut[4].style.display = 'none'
+alert('Закрыты NFT')
+but0[4].style.backgroundColor = '#efefef'
+bat0[4].style.backgroundColor = 'red'
 }
 </script>
 </html>
