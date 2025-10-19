@@ -172,49 +172,13 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/83adf78ed6ef43bc483e4f7d7c9e2cc6/raw/a540362ddf6c20649538ea2a12dfcf9b9eeb5779/website001.js', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/cf3589f83ef55f748d0e784904d19422fa1cdc05/website002.text', function(){
 jr1 = text1.responseJSON
-starst1[0].innerText = jr1.members[0]['name'][0]['1']
-starst1[1].innerText = jr1.members[0]['name'][0]['2']
-starst1[2].innerText = jr1.members[0]['name'][0]['3']
-starst1[3].innerText = jr1.members[0]['name'][0]['4']
-starst1[4].innerText = jr1.members[0]['name'][0]['5']
-starst1[5].innerText = jr1.members[0]['name'][0]['6']
-starst1[6].innerText = jr1.members[0]['name'][0]['7']
-starst1[7].innerText = jr1.members[0]['name'][0]['8']
-starst1[8].innerText = jr1.members[0]['name'][0]['9']
-starst1[9].innerText = jr1.members[0]['name'][0]['10']
-starst2[0].innerText = jr1.members[0]['stars'][0]['1']
-starst2[1].innerText = jr1.members[0]['stars'][0]['2']
-starst2[2].innerText = jr1.members[0]['stars'][0]['3']
-starst2[3].innerText = jr1.members[0]['stars'][0]['4']
-starst2[4].innerText = jr1.members[0]['stars'][0]['5']
-starst2[5].innerText = jr1.members[0]['stars'][0]['6']
-starst2[6].innerText = jr1.members[0]['stars'][0]['7']
-starst2[7].innerText = jr1.members[0]['stars'][0]['8']
-starst2[8].innerText = jr1.members[0]['stars'][0]['9']
-starst2[9].innerText = jr1.members[0]['stars'][0]['10']
+starst1[0].innerHTML = jr1.donater1.data[0].name
 
-gemst1[0].innerText = jr1.members[1]['name'][0]['1']
-gemst1[1].innerText = jr1.members[1]['name'][0]['2']
-gemst1[2].innerText = jr1.members[1]['name'][0]['3']
-gemst1[3].innerText = jr1.members[1]['name'][0]['4']
-gemst1[4].innerText = jr1.members[1]['name'][0]['5']
-gemst1[5].innerText = jr1.members[1]['name'][0]['6']
-gemst1[6].innerText = jr1.members[1]['name'][0]['7']
-gemst1[7].innerText = jr1.members[1]['name'][0]['8']
-gemst1[8].innerText = jr1.members[1]['name'][0]['9']
-gemst1[9].innerText = jr1.members[1]['name'][0]['10']
-gemst2[0].innerText = jr1.members[1]['gems'][0]['1']
-gemst2[1].innerText = jr1.members[1]['gems'][0]['2']
-gemst2[2].innerText = jr1.members[1]['gems'][0]['3']
-gemst2[3].innerText = jr1.members[1]['gems'][0]['4']
-gemst2[4].innerText = jr1.members[1]['gems'][0]['5']
-gemst2[5].innerText = jr1.members[1]['gems'][0]['6']
-gemst2[6].innerText = jr1.members[1]['gems'][0]['7']
-gemst2[7].innerText = jr1.members[1]['gems'][0]['8']
-gemst2[8].innerText = jr1.members[1]['gems'][0]['9']
-gemst2[9].innerText = jr1.members[1]['gems'][0]['10']
+starst2[0].innerHTML = jr1.donater1.data[0].stars
+
+gemst2[0].innerHTML = jr1.donater1.data[1].gems
 })
 }
 </script>
