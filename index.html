@@ -177,18 +177,27 @@ codelink = 'oxlUAHgivryYZNe'
 document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
+topers1()
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/cf3589f83ef55f748d0e784904d19422fa1cdc05/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/6c25a7fd5345e1d096376c0d2d89eaa0c0bb0418/website002.text', function(){
 jr1 = text1.responseJSON
+dsa0 = 2
+dsa1 = 0.045
+dsa2 = 45
+dsa3 = (100/dsa0)
+dsa4 = dsa1+dsa2+dsa3
+donater1 = (jr1.donater1.data[0].stars+jr1.donater1.data[1].gems)
+
 starst1[0].innerHTML = jr1.donater1.data[0].name
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
+
+shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 })
 }
 </script>
-
 <script>
 function koa1(){
   VK.Widgets.Group("vk_groups", {mode: 2, wide: 1, width: 400, height: 700, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 222480336);
