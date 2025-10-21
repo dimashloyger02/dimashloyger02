@@ -181,32 +181,38 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/f8b3c4c7dc504ec64899130bb3af2a57a59d79d1/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/bb6c3bb3f86bc8859efa93e85a7aa470973cbb8f/website002.text', function(){
 jr1 = text1.responseJSON
-dsa0 = 3
+dsa0 = 4
 dsa1 = 0.045
 dsa2 = 45
 dsa3 = (100/dsa0)
 dsa4 = dsa1+dsa2+dsa3
+
 donater1 = (jr1.donater1.data[0].stars+jr1.donater1.data[1].gems+dsa3)
 donater2 = (jr1.donater2.data[0].stars+jr1.donater2.data[1].gems+dsa3)
 donater3 = (jr1.donater3.data[0].stars+jr1.donater3.data[1].gems+dsa3)
+donater4 = (jr1.donater4.data[0].stars+jr1.donater4.data[1].gems+dsa3)
 
 starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
 starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
 starst1[2].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater3.data[0].tgid+'">'+jr1.donater3.data[0].name+'</a>'
+starst1[3].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater4.data[0].tgid+'">'+jr1.donater4.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
 starst2[2].innerHTML = jr1.donater3.data[0].stars
+starst2[3].innerHTML = jr1.donater4.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
 gemst2[1].innerHTML = jr1.donater2.data[1].gems
 gemst2[2].innerHTML = jr1.donater3.data[1].gems
+gemst2[3].innerHTML = jr1.donater4.data[1].gems
 
 shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 shance1[1].innerHTML = ((donater2/dsa4)*100).toFixed(2)+'%'
 shance1[2].innerHTML = ((donater3/dsa4)*100).toFixed(2)+'%'
+shance1[3].innerHTML = ((donater4/dsa4)*100).toFixed(2)+'%'
 })
 }
 </script>
