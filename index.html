@@ -192,9 +192,9 @@ donater1 = (jr1.donater1.data[0].stars+jr1.donater1.data[1].gems+dsa3)
 donater2 = (jr1.donater2.data[0].stars+jr1.donater2.data[1].gems+dsa3)
 donater3 = (jr1.donater3.data[0].stars+jr1.donater3.data[1].gems+dsa3)
 
-starst1[0].innerHTML = jr1.donater1.data[0].name
-starst1[1].innerHTML = jr1.donater2.data[0].name
-starst1[2].innerHTML = jr1.donater3.data[0].name
+starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
+starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
+starst1[2].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater3.data[0].tgid+'">'+jr1.donater3.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
