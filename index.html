@@ -45,7 +45,7 @@ texter1.innerHTML = text1.responseText
 }
 
 function get3(){
-text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/8c9b97a0b8425782b85ebf5906575e15903c0352/website003.html', function(){
+text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/c62e7d6b9f7255c32b997d856efeefdeef704a72/website003.html', function(){
 texter1.innerHTML = text1.responseText
 })
 }
@@ -181,9 +181,9 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/bb00904cf9e6247981f16cc89983fae4c3530e82/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/f76f804633c2d91bb46827009c9b475e553f39e7/website002.text', function(){
 jr1 = text1.responseJSON
-dsa0 = 4
+dsa0 = 13
 dsa1 = 0.045
 dsa2 = 45
 dsa3 = (100/dsa0)
@@ -193,29 +193,75 @@ donater1 = (jr1.donater1.data[0].stars+jr1.donater1.data[1].gems+dsa3)
 donater2 = (jr1.donater2.data[0].stars+jr1.donater2.data[1].gems+dsa3)
 donater3 = (jr1.donater3.data[0].stars+jr1.donater3.data[1].gems+dsa3)
 donater4 = (jr1.donater4.data[0].stars+jr1.donater4.data[1].gems+dsa3)
+donater5 = (jr1.donater5.data[0].stars+jr1.donater5.data[1].gems+dsa3)
+donater6 = (jr1.donater6.data[0].stars+jr1.donater6.data[1].gems+dsa3)
+donater7 = (jr1.donater7.data[0].stars+jr1.donater7.data[1].gems+dsa3)
+donater8 = (jr1.donater8.data[0].stars+jr1.donater8.data[1].gems+dsa3)
+donater9 = (jr1.donater9.data[0].stars+jr1.donater9.data[1].gems+dsa3)
+donater10 = (jr1.donater10.data[0].stars+jr1.donater10.data[1].gems+dsa3)
+donater11 = (jr1.donater11.data[0].stars+jr1.donater11.data[1].gems+dsa3)
+donater12 = (jr1.donater12.data[0].stars+jr1.donater12.data[1].gems+dsa3)
+donater13 = (jr1.donater13.data[0].stars+jr1.donater13.data[1].gems+dsa3)
 
 starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
 starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
 starst1[2].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater3.data[0].tgid+'">'+jr1.donater3.data[0].name+'</a>'
 starst1[3].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater4.data[0].tgid+'">'+jr1.donater4.data[0].name+'</a>'
+starst1[4].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater5.data[0].tgid+'">'+jr1.donater5.data[0].name+'</a>'
+starst1[5].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater6.data[0].tgid+'">'+jr1.donater6.data[0].name+'</a>'
+starst1[6].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater7.data[0].tgid+'">'+jr1.donater7.data[0].name+'</a>'
+starst1[7].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater8.data[0].tgid+'">'+jr1.donater8.data[0].name+'</a>'
+starst1[8].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater9.data[0].tgid+'">'+jr1.donater9.data[0].name+'</a>'
+starst1[9].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater10.data[0].tgid+'">'+jr1.donater10.data[0].name+'</a>'
+starst1[10].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater11.data[0].tgid+'">'+jr1.donater11.data[0].name+'</a>'
+starst1[11].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater12.data[0].tgid+'">'+jr1.donater12.data[0].name+'</a>'
+starst1[12].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater13.data[0].tgid+'">'+jr1.donater13.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
 starst2[2].innerHTML = jr1.donater3.data[0].stars
 starst2[3].innerHTML = jr1.donater4.data[0].stars
+starst2[4].innerHTML = jr1.donater5.data[0].stars
+starst2[5].innerHTML = jr1.donater6.data[0].stars
+starst2[6].innerHTML = jr1.donater7.data[0].stars
+starst2[7].innerHTML = jr1.donater8.data[0].stars
+starst2[8].innerHTML = jr1.donater9.data[0].stars
+starst2[9].innerHTML = jr1.donater10.data[0].stars
+starst2[10].innerHTML = jr1.donater11.data[0].stars
+starst2[11].innerHTML = jr1.donater12.data[0].stars
+starst2[12].innerHTML = jr1.donater13.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
 gemst2[1].innerHTML = jr1.donater2.data[1].gems
 gemst2[2].innerHTML = jr1.donater3.data[1].gems
 gemst2[3].innerHTML = jr1.donater4.data[1].gems
+gemst2[4].innerHTML = jr1.donater5.data[1].gems
+gemst2[5].innerHTML = jr1.donater6.data[1].gems
+gemst2[6].innerHTML = jr1.donater7.data[1].gems
+gemst2[7].innerHTML = jr1.donater8.data[1].gems
+gemst2[8].innerHTML = jr1.donater9.data[1].gems
+gemst2[9].innerHTML = jr1.donater10.data[1].gems
+gemst2[10].innerHTML = jr1.donater11.data[1].gems
+gemst2[11].innerHTML = jr1.donater12.data[1].gems
+gemst2[12].innerHTML = jr1.donater13.data[1].gems
 
 shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 shance1[1].innerHTML = ((donater2/dsa4)*100).toFixed(2)+'%'
 shance1[2].innerHTML = ((donater3/dsa4)*100).toFixed(2)+'%'
 shance1[3].innerHTML = ((donater4/dsa4)*100).toFixed(2)+'%'
+shance1[4].innerHTML = ((donater5/dsa4)*100).toFixed(2)+'%'
+shance1[5].innerHTML = ((donater6/dsa4)*100).toFixed(2)+'%'
+shance1[6].innerHTML = ((donater7/dsa4)*100).toFixed(2)+'%'
+shance1[7].innerHTML = ((donater8/dsa4)*100).toFixed(2)+'%'
+shance1[8].innerHTML = ((donater9/dsa4)*100).toFixed(2)+'%'
+shance1[9].innerHTML = ((donater10/dsa4)*100).toFixed(2)+'%'
+shance1[10].innerHTML = ((donater11/dsa4)*100).toFixed(2)+'%'
+shance1[11].innerHTML = ((donater12/dsa4)*100).toFixed(2)+'%'
+shance1[12].innerHTML = ((donater13/dsa4)*100).toFixed(2)+'%'
 })
 }
 </script>
+
 <script>
 function koa1(){
   VK.Widgets.Group("vk_groups", {mode: 2, wide: 1, width: 400, height: 700, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 222480336);
