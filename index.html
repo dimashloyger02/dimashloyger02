@@ -49,7 +49,7 @@ texter1.innerHTML = text1.responseText
 }
 
 function get3(){
-text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/4c825c6ca206a6e6765bd5d191781a83d0c84f67/website003.html', function(){
+text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/da6853767cc081fe3e58d4346082abe1278221fb/website003.html', function(){
 texter1.innerHTML = text1.responseText
 })
 }
@@ -185,11 +185,11 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/575405b32f14ad24e47c2474c35d6325ca84f7c9/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/533d5a8899c2b4c37ef93670c62dc38a7146235c/website002.text', function(){
 jr1 = text1.responseJSON
-dsa0 = 16
-dsa1 = 0.198
-dsa2 = 198
+dsa0 = 18
+dsa1 = 0.335
+dsa2 = 335
 dsa3 = (100/dsa0)
 dsa4 = dsa1+dsa2+dsa3
 
@@ -209,6 +209,8 @@ donater13 = (jr1.donater13.data[0].stars+jr1.donater13.data[1].gems+dsa3)
 donater14 = (jr1.donater14.data[0].stars+jr1.donater14.data[1].gems+dsa3)
 donater15 = (jr1.donater15.data[0].stars+jr1.donater15.data[1].gems+dsa3)
 donater16 = (jr1.donater16.data[0].stars+jr1.donater16.data[1].gems+dsa3)
+donater17 = (jr1.donater17.data[0].stars+jr1.donater17.data[1].gems+dsa3)
+donater18 = (jr1.donater18.data[0].stars+jr1.donater18.data[1].gems+dsa3)
 
 starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
 starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
@@ -226,6 +228,8 @@ starst1[12].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater13.data[
 starst1[13].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater14.data[0].tgid+'">'+jr1.donater14.data[0].name+'</a>'
 starst1[14].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater15.data[0].tgid+'">'+jr1.donater15.data[0].name+'</a>'
 starst1[15].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater16.data[0].tgid+'">'+jr1.donater16.data[0].name+'</a>'
+starst1[16].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater17.data[0].tgid+'">'+jr1.donater17.data[0].name+'</a>'
+starst1[17].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater18.data[0].tgid+'">'+jr1.donater18.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
@@ -243,6 +247,8 @@ starst2[12].innerHTML = jr1.donater13.data[0].stars
 starst2[13].innerHTML = jr1.donater14.data[0].stars
 starst2[14].innerHTML = jr1.donater15.data[0].stars
 starst2[15].innerHTML = jr1.donater16.data[0].stars
+starst2[16].innerHTML = jr1.donater17.data[0].stars
+starst2[17].innerHTML = jr1.donater18.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
 gemst2[1].innerHTML = jr1.donater2.data[1].gems
@@ -260,6 +266,8 @@ gemst2[12].innerHTML = jr1.donater13.data[1].gems
 gemst2[13].innerHTML = jr1.donater14.data[1].gems
 gemst2[14].innerHTML = jr1.donater15.data[1].gems
 gemst2[15].innerHTML = jr1.donater16.data[1].gems
+gemst2[16].innerHTML = jr1.donater17.data[1].gems
+gemst2[17].innerHTML = jr1.donater18.data[1].gems
 
 shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 shance1[1].innerHTML = ((donater2/dsa4)*100).toFixed(2)+'%'
@@ -277,6 +285,8 @@ shance1[12].innerHTML = ((donater13/dsa4)*100).toFixed(2)+'%'
 shance1[13].innerHTML = ((donater14/dsa4)*100).toFixed(2)+'%'
 shance1[14].innerHTML = ((donater15/dsa4)*100).toFixed(2)+'%'
 shance1[15].innerHTML = ((donater16/dsa4)*100).toFixed(2)+'%'
+shance1[16].innerHTML = ((donater17/dsa4)*100).toFixed(2)+'%'
+shance1[17].innerHTML = ((donater18/dsa4)*100).toFixed(2)+'%'
 })
 }
 </script>
