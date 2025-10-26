@@ -49,7 +49,7 @@ texter1.innerHTML = text1.responseText
 }
 
 function get3(){
-text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/da6853767cc081fe3e58d4346082abe1278221fb/website003.html', function(){
+text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/f722feb302c10c3df985a8b20cec26d17495d42f/website003.html', function(){
 texter1.innerHTML = text1.responseText
 })
 }
@@ -185,7 +185,7 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/78a1264be9cb39208e0253959b35ef9c602940b1/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/8bfb16eeb28ee407c7b327e35f060ef9ea75baa4/website002.text', function(){
 jr1 = text1.responseJSON
 dsa0 = 18
 dsa1 = 1.610
@@ -211,6 +211,7 @@ donater15 = (jr1.donater15.data[0].stars+jr1.donater15.data[1].gems+dsa3)
 donater16 = (jr1.donater16.data[0].stars+jr1.donater16.data[1].gems+dsa3)
 donater17 = (jr1.donater17.data[0].stars+jr1.donater17.data[1].gems+dsa3)
 donater18 = (jr1.donater18.data[0].stars+jr1.donater18.data[1].gems+dsa3)
+donater19 = (jr1.donater19.data[0].stars+jr1.donater19.data[1].gems+dsa3)
 
 starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
 starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
@@ -230,6 +231,7 @@ starst1[14].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater15.data[
 starst1[15].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater16.data[0].tgid+'">'+jr1.donater16.data[0].name+'</a>'
 starst1[16].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater17.data[0].tgid+'">'+jr1.donater17.data[0].name+'</a>'
 starst1[17].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater18.data[0].tgid+'">'+jr1.donater18.data[0].name+'</a>'
+starst1[18].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater19.data[0].tgid+'">'+jr1.donater19.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
@@ -249,6 +251,7 @@ starst2[14].innerHTML = jr1.donater15.data[0].stars
 starst2[15].innerHTML = jr1.donater16.data[0].stars
 starst2[16].innerHTML = jr1.donater17.data[0].stars
 starst2[17].innerHTML = jr1.donater18.data[0].stars
+starst2[18].innerHTML = jr1.donater19.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
 gemst2[1].innerHTML = jr1.donater2.data[1].gems
@@ -268,6 +271,7 @@ gemst2[14].innerHTML = jr1.donater15.data[1].gems
 gemst2[15].innerHTML = jr1.donater16.data[1].gems
 gemst2[16].innerHTML = jr1.donater17.data[1].gems
 gemst2[17].innerHTML = jr1.donater18.data[1].gems
+gemst2[18].innerHTML = jr1.donater19.data[1].gems
 
 shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 shance1[1].innerHTML = ((donater2/dsa4)*100).toFixed(2)+'%'
@@ -287,6 +291,7 @@ shance1[14].innerHTML = ((donater15/dsa4)*100).toFixed(2)+'%'
 shance1[15].innerHTML = ((donater16/dsa4)*100).toFixed(2)+'%'
 shance1[16].innerHTML = ((donater17/dsa4)*100).toFixed(2)+'%'
 shance1[17].innerHTML = ((donater18/dsa4)*100).toFixed(2)+'%'
+shance1[18].innerHTML = ((donater19/dsa4)*100).toFixed(2)+'%'
 })
 }
 </script>
