@@ -49,7 +49,7 @@ texter1.innerHTML = text1.responseText
 }
 
 function get3(){
-text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/a8b01e016afa66ff99374f1369351e656da59e1c/website003.html', function(){
+text1 = $.get('https://gist.githubusercontent.com/dimashloyger02/4a3859349d7a0895569570ab0d55719f/raw/9159a2dcbec761f01816398c6deada0de6f043b5/website003.html', function(){
 texter1.innerHTML = text1.responseText
 })
 }
@@ -185,11 +185,11 @@ document.location.href = 'https://t.me/CupLegendBot?start=Invoice='+codelink
 }
 
 function topers1(){
-text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/01bb3a6dc1fda00788e767139ce9bfaa8ce9ba60/website002.text', function(){
+text1 = $.getJSON('https://gist.githubusercontent.com/dimashloyger02/1d9bd2208e2a87b9e2604d867def3083/raw/115dab3bcf125396412ba8582ebb0dcd0de2f270/website002.text', function(){
 jr1 = text1.responseJSON
-dsa0 = 1
+dsa0 = 24
 dsa1 = 15.000
-dsa2 = 1610
+dsa2 = 2240
 dsa3 = (100/dsa0)
 dsa4 = dsa1+dsa2+dsa3
 
@@ -212,6 +212,11 @@ donater16 = (jr1.donater16.data[0].stars+jr1.donater16.data[1].gems+dsa3)
 donater17 = (jr1.donater17.data[0].stars+jr1.donater17.data[1].gems+dsa3)
 donater18 = (jr1.donater18.data[0].stars+jr1.donater18.data[1].gems+dsa3)
 donater19 = (jr1.donater19.data[0].stars+jr1.donater19.data[1].gems+dsa3)
+donater20 = (jr1.donater20.data[0].stars+jr1.donater20.data[1].gems+dsa3)
+donater21 = (jr1.donater21.data[0].stars+jr1.donater21.data[1].gems+dsa3)
+donater22 = (jr1.donater22.data[0].stars+jr1.donater22.data[1].gems+dsa3)
+donater23 = (jr1.donater23.data[0].stars+jr1.donater23.data[1].gems+dsa3)
+donater24 = (jr1.donater24.data[0].stars+jr1.donater24.data[1].gems+dsa3)
 
 starst1[0].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater1.data[0].tgid+'">'+jr1.donater1.data[0].name+'</a>'
 starst1[1].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater2.data[0].tgid+'">'+jr1.donater2.data[0].name+'</a>'
@@ -232,6 +237,11 @@ starst1[15].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater16.data[
 starst1[16].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater17.data[0].tgid+'">'+jr1.donater17.data[0].name+'</a>'
 starst1[17].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater18.data[0].tgid+'">'+jr1.donater18.data[0].name+'</a>'
 starst1[18].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater19.data[0].tgid+'">'+jr1.donater19.data[0].name+'</a>'
+starst1[19].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater20.data[0].tgid+'">'+jr1.donater20.data[0].name+'</a>'
+starst1[20].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater21.data[0].tgid+'">'+jr1.donater21.data[0].name+'</a>'
+starst1[21].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater22.data[0].tgid+'">'+jr1.donater22.data[0].name+'</a>'
+starst1[22].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater23.data[0].tgid+'">'+jr1.donater23.data[0].name+'</a>'
+starst1[23].innerHTML = '<a href="tg://openmessage?user_id='+jr1.donater24.data[0].tgid+'">'+jr1.donater24.data[0].name+'</a>'
 
 starst2[0].innerHTML = jr1.donater1.data[0].stars
 starst2[1].innerHTML = jr1.donater2.data[0].stars
@@ -252,6 +262,11 @@ starst2[15].innerHTML = jr1.donater16.data[0].stars
 starst2[16].innerHTML = jr1.donater17.data[0].stars
 starst2[17].innerHTML = jr1.donater18.data[0].stars
 starst2[18].innerHTML = jr1.donater19.data[0].stars
+starst2[19].innerHTML = jr1.donater20.data[0].stars
+starst2[20].innerHTML = jr1.donater21.data[0].stars
+starst2[21].innerHTML = jr1.donater22.data[0].stars
+starst2[22].innerHTML = jr1.donater23.data[0].stars
+starst2[23].innerHTML = jr1.donater24.data[0].stars
 
 gemst2[0].innerHTML = jr1.donater1.data[1].gems
 gemst2[1].innerHTML = jr1.donater2.data[1].gems
@@ -272,6 +287,11 @@ gemst2[15].innerHTML = jr1.donater16.data[1].gems
 gemst2[16].innerHTML = jr1.donater17.data[1].gems
 gemst2[17].innerHTML = jr1.donater18.data[1].gems
 gemst2[18].innerHTML = jr1.donater19.data[1].gems
+gemst2[19].innerHTML = jr1.donater20.data[1].gems
+gemst2[20].innerHTML = jr1.donater21.data[1].gems
+gemst2[21].innerHTML = jr1.donater22.data[1].gems
+gemst2[22].innerHTML = jr1.donater23.data[1].gems
+gemst2[23].innerHTML = jr1.donater24.data[1].gems
 
 shance1[0].innerHTML = ((donater1/dsa4)*100).toFixed(2)+'%'
 shance1[1].innerHTML = ((donater2/dsa4)*100).toFixed(2)+'%'
@@ -292,12 +312,11 @@ shance1[15].innerHTML = ((donater16/dsa4)*100).toFixed(2)+'%'
 shance1[16].innerHTML = ((donater17/dsa4)*100).toFixed(2)+'%'
 shance1[17].innerHTML = ((donater18/dsa4)*100).toFixed(2)+'%'
 shance1[18].innerHTML = ((donater19/dsa4)*100).toFixed(2)+'%'
+shance1[19].innerHTML = ((donater20/dsa4)*100).toFixed(2)+'%'
+shance1[20].innerHTML = ((donater21/dsa4)*100).toFixed(2)+'%'
+shance1[21].innerHTML = ((donater22/dsa4)*100).toFixed(2)+'%'
+shance1[22].innerHTML = ((donater23/dsa4)*100).toFixed(2)+'%'
+shance1[23].innerHTML = ((donater24/dsa4)*100).toFixed(2)+'%'
 })
-}
-</script>
-
-<script>
-function koa1(){
-  VK.Widgets.Group("vk_groups", {mode: 2, wide: 1, width: 400, height: 700, color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 222480336);
 }
 </script>
